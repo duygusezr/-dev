@@ -1,0 +1,30 @@
+body{
+    background-image: url('https://media.istockphoto.com/id/531253600/photo/sunrise.jpg?s=612x612&w=0&k=20&c=gdlZaKWcTjW1hmTRN8veqYIV25O4OfN4MhNx2H5Rgnk=');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+section {
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+  }
+  
+  header {
+    text-align: center;
+  }
+  h1{
+    font-family: 'Heebo', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    color: #000000;
+  }
+  
+  img {
+    width: 30%;
+    margin: 10px 10px 10px 10px;
+    height: 200px;
+    object-fit: cover;
+  }
